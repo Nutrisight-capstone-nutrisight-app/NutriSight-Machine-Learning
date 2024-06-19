@@ -14,7 +14,7 @@ NutriSight is a machine learning model designed to analyze and provide insights 
 
 To view or download the model, please click the following link:
 
-[Download NutriSight Model](https://drive.google.com/drive/folders/1RHi0qCqgNvhYrGAW56Xk4Q-jQu8HJf8D?usp=sharing)
+[Download NutriSight Model](https://drive.google.com/file/d/1kB_BM1VFDS1TbeX_uS0cYamFUQBePWxN/view?usp=sharing)
 
 ## Installation
 
