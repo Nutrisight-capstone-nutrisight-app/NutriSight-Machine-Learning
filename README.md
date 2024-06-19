@@ -4,9 +4,11 @@
 
 NutriSight is a machine learning model designed to analyze and provide insights into nutritional data. This model has been developed using various preprocessing and modeling techniques, and it is capable of making accurate predictions based on input data. The project includes the following key components:
 
-- **Modeling.ipynb**: This notebook contains the entire modeling process, including model training and evaluation.
 - **Preprocessing.ipynb**: This notebook covers all the preprocessing steps, such as data cleaning, cropping, resizing, augmentation, and normalization, to prepare the data for modeling.
+- **Modeling.ipynb**: This notebook contains the entire modeling process, including building, training, and evaluating the model.
+- **predict.py**: A script to make predictions using the trained model.
 - **model.h5**: The trained model saved in H5 format, which can be loaded and used for predictions.
+- **requirements.txt**: A file listing all the dependencies required to run the project.
 
 ## How to Use
 
@@ -22,8 +24,12 @@ To get started with NutriSight, follow these steps:
     ```sh
     git clone https://github.com/yourusername/nutrisight.git
     ```
+2. Install the required dependencies using `pip`:
 
-2. Navigate to the project directory:
+    ```sh
+    pip install -r requirements.txt
+    ```
+3. Navigate to the project directory:
     ```sh
     cd nutrisight
     ```
@@ -40,9 +46,7 @@ Use the `Modeling.ipynb` notebook to train the NutriSight model. This notebook i
 
 ### Making Predictions
 
-You can load the trained model using the `model.h5` files and use it to make predictions on new data.
-
-Example of loading the H5 model:
+To make predictions using the trained model, use the `predict.py` script. You can run this script from the command line. For example:
 
 ```python
 # Example usage
