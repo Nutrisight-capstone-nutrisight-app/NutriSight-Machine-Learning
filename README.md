@@ -45,29 +45,6 @@ You can load the trained model using the `model.h5` files and use it to make pre
 Example of loading the H5 model:
 
 ```python
-import numpy as np
-import tensorflow as tf
-from tensorflow.keras.models import load_model
-import cv2
-
-# Load the model
-model = load_model('model.h5')
-
-# Function to preprocess the input image
-def preprocess_image(image_path):
-    img = cv2.imread(image_path)
-    img = cv2.resize(img, (224, 224))
-    img = img.astype('float32') / 255.0 
-    img = np.expand_dims(img, axis=0) 
-    return img
-
-# Function to make a prediction
-def predict(image_path):
-    img = preprocess_image(image_path)
-    prediction = model.predict(img)
-    return prediction
-
 # Example usage
-image_path = 'path_to_your_image.jpg'
-prediction = predict(image_path)
-print(f'Prediction: {prediction}')
+python predict.py model.h5 "path_to_your_image.jpg"
+
