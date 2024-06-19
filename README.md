@@ -24,14 +24,13 @@ To get started with NutriSight, follow these steps:
     ```sh
     git clone https://github.com/yourusername/nutrisight.git
     ```
-2. Install the required dependencies using `pip`:
-
-    ```sh
-    pip install -r requirements.txt
-    ```
-3. Navigate to the project directory:
+2. Navigate to the project directory:
     ```sh
     cd nutrisight
+    ```
+3. Install the required dependencies using `pip`:
+    ```sh
+    pip install -r requirements.txt
     ```
 
 ## Usage
